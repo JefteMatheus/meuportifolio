@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Seu Nome</h1>
+      <p>Desenvolvedor Web | Frontend | Backend</p>
+    </div>
+  </header>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2>Sobre Mim</h2>
+      <div class="about-content">
+        <img src="sua-imagem.jpg" alt="Foto de perfil">
+        <p>
+          Olá! Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Tenho experiência em desenvolvimento web, com foco em tecnologias modernas e design responsivo.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React.js</li>
+        <li>Node.js</li>
+        <li>Git e GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <div class="container">
+      <h2>Experiência</h2>
+      <div class="experience-item">
+        <h3>Desenvolvedor Web - Empresa XYZ</h3>
+        <p>Janeiro de 2022 - Atual</p>
+        <p>Atuei no desenvolvimento e manutenção de aplicações web, implementando interfaces responsivas e interativas.</p>
+      </div>
+      <div class="experience-item">
+        <h3>Estagiário em TI - Empresa ABC</h3>
+        <p>Março de 2020 - Dezembro de 2021</p>
+        <p>Participei de projetos de automação de processos e suporte técnico.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2>Projetos</h2>
+      <div class="project-item">
+        <h3>Portfolio Pessoal</h3>
+        <p>Um site responsivo que destaca minhas habilidades e projetos.</p>
+        <a href="https://github.com/seu-repositorio" target="_blank">Ver Projeto</a>
+      </div>
+      <div class="project-item">
+        <h3>Aplicativo de Tarefas</h3>
+        <p>Uma aplicação de gerenciamento de tarefas desenvolvida com React e Node.js.</p>
+        <a href="https://github.com/seu-repositorio" target="_blank">Ver Projeto</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2024 Seu Nome. Todos os direitos reservados.</p>
+      <p>Entre em contato: <a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
+    </div>
+  </footer>
+</body>
+</html>
